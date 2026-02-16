@@ -87,6 +87,7 @@ self.block = NAFBlock3D(channels=64)
 
 ```
 ssres_toolbox              ← shared neural-network building blocks (this repo)
+ ├── baseline_ssres        ← N2N, N2V, N2S baseline strategies (plugin)
  ├── gap_bit2bit_ssres     ← photon-splitting strategies & losses (plugin)
  ├── deblur_inr_ssres      ← blind deblurring via INR (plugin)
  └── ssres                 ← framework: config, training, export, plugin discovery
@@ -98,6 +99,7 @@ Plugins depend on `ssres_toolbox` for reusable components and declare
 | Repository | Description | Link |
 |-----------|-------------|------|
 | **ssres_toolbox** | PyTorch building blocks | [GitHub](https://github.com/Self-Supervised-Restoration-Studio/ssres_toolbox) |
+| **baseline_ssres** | N2N, N2V, N2S baseline strategies | [GitHub](https://github.com/Self-Supervised-Restoration-Studio/baseline_ssres) |
 | **gap_bit2bit_ssres** | GAP/Bit2Bit photon denoising | [GitHub](https://github.com/Self-Supervised-Restoration-Studio/gap_bit2bit_ssres) |
 | **deblur_inr_ssres** | Blind deblurring via implicit neural representations | [GitHub](https://github.com/Self-Supervised-Restoration-Studio/deblur_inr_ssres) |
 | **ssres** | Framework: training, export, CLI | [GitHub](https://github.com/Self-Supervised-Restoration-Studio/ssres) |
